@@ -3,34 +3,34 @@
 <head>
     <meta charset="utf-8" />
     <title>Cuby The Cube</title>
+    <script src="js/events/KeyboardHandler.js"></script>
 </head>
 <body>
     <canvas id="gameWindow" width="800" height="600" style="border:1px solid #000000;"></canvas>
+    <script src="js/game_objects/GameObject.js" type="text/javascript"></script>
+    <script src="js/game_objects/Player.js" type="text/javascript"></script>
+    <script src="js/Game.js" type="text/javascript"></script>
 
     <script>
-        var gameWindow = document.getElementById("gameWindow");
-        var line = gameWindow.getContext("2d");
-        line.moveTo(0, 0);
-        line.fillRect(20, 20, 64, 64);
 
-        line.stroke();
+                                        //var line = gameWindow.getContext("2d");
+                                        //line.moveTo(0, 0);
+                                        //line.fillRect(20, 20, 64, 64);
 
-        var posX = 0.0;
-        var previousTime;
-        var currentTime = Date.now();
+                                        //line.stroke();
 
-        window.setInterval(tick, 16)
+                                        //var posX = 0.0;
+                                        //var previousTime;
+                                        //var currentTime = Date.now();
 
-        function tick() {
-            previousTime = currentTime;
-            currentTime = Date.now();
-            var timeBetwenFrames = currentTime - previousTime;
+                                        //previousTime = currentTime;
+                                        //currentTime = Date.now();
+                                        //var timeBetwenFrames = currentTime - previousTime;
 
-            line.clearRect(0, 0, gameWindow.width, gameWindow.height);
-            posX += 200 * (timeBetwenFrames / 1000);
-            line.fillRect(posX, 20, 64, 64);
-            line.stroke();
-        }
+                                        //line.clearRect(0, 0, gameWindow.width, gameWindow.height);
+                                        //posX += 200 * (timeBetwenFrames / 1000);
+                                        //line.fillRect(posX, 20, 64, 64);
+                                        //line.stroke();
     </script>
 
 </body>

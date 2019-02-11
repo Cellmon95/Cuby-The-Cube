@@ -7,20 +7,21 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Cuby The Cube(1)", "Cuby Th
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_52717"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\Cuby-The-Cube\Cuby The Cube\"
+		Debug.AspNetCompiler.PhysicalPath = "Cuby The Cube\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52717\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_52717"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\Cuby-The-Cube\Cuby The Cube\"
+		Release.AspNetCompiler.PhysicalPath = "Cuby The Cube\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52717\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "52717"
+		SlnRelativePath = "Cuby The Cube\"
 	EndProjectSection
 EndProject
 Global
