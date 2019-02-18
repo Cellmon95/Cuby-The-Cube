@@ -19,7 +19,6 @@ var key = {
 };
 
 function keyPress(e) {
-    console.log(e.key);
     key[e.key] = true;
 }
 

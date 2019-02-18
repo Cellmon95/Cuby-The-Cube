@@ -29,4 +29,7 @@ class GameObject {
 
     }
 
+    onCollision(target, arg) {
+
+    }
 }
