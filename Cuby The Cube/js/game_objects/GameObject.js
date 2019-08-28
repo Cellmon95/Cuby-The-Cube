@@ -20,6 +20,7 @@ class GameObject {
     constructor() {
         this.position = new Vector2(0, 0);
         this.bounds = new Vector2(0, 0);
+        this.movingDirection = "";
     }
 
     update() {
